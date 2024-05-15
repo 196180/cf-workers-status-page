@@ -60,7 +60,7 @@ monitors:
     name: kuma
     description: 'Built for anything connected to the Internet.'
     url: 'https://kuma.1003.cloudns.org/status/web'
-    method: POST
+    method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
