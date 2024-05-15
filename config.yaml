@@ -32,6 +32,22 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
+  - id: blog
+    name: 博客
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://bk.xjf520.cloudns.org'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: jingtai
+    name: 静态导航
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://x.521.cloudns.org'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
   - id: blog-cloudflare-com
     name: The Cloudflare Blog
     url: 'https://blog.cloudflare.com/'
