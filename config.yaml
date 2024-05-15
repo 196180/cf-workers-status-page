@@ -51,7 +51,7 @@ monitors:
   - id: xiaokuma
     name: 小kuma
     description: 'Built for anything connected to the Internet.'
-    url: '    https://xjfkkk-uptime-kuma.hf.space'
+    url: 'https://xjfkkk-uptime-kuma.hf.space'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
