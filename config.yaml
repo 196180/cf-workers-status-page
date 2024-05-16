@@ -15,35 +15,18 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
+  - id: uptimerobot
+    name: uptimerobot
     description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
-    method: GET
+    url: 'https://stats.uptimerobot.com/dXm3wy0mA0'
+    method: POST
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: blog
-    name: 博客
+  - id: uptimeflare
+    name: uptimeflare
     description: 'Built for anything connected to the Internet.'
-    url: 'https://bk.xjf520.cloudns.org'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
-
-  - id: jingtai
-    name: 静态导航
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://x.521.cloudns.org'
+    url: 'https://uptimeflare-c1z.pages.dev'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
@@ -60,6 +43,22 @@ monitors:
     name: kuma
     description: 'Built for anything connected to the Internet.'
     url: 'https://kuma.1003.cloudns.org/status/web'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+    
+  - id: blog
+    name: 博客
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://bk.xjf520.cloudns.org'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: jingtai
+    name: 静态导航
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://x.521.cloudns.org'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
