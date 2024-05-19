@@ -70,10 +70,3 @@ monitors:
     method: POST
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
-  - id: suonicaiji
-    name: 索尼采集
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://xjfs.rr.nu/api.php/timming/index.html?enforce=1&name=suoni-day'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
