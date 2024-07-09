@@ -31,6 +31,14 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
+  - id: Open WebUI
+    name: Open WebUI
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://chatgpt.zcmu.us.kg'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
   - id: xiaokuma
     name: 小kuma
     description: 'Built for anything connected to the Internet.'
