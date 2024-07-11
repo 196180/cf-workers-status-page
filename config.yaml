@@ -26,7 +26,7 @@ monitors:
   - id: uptimeflare
     name: uptimeflare
     description: 'Built for anything connected to the Internet.'
-    url: 'https://uptimeflare-c1z.pages.dev'
+    url: 'https://uptimeflare.zcmu.us.kg'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
@@ -42,7 +42,7 @@ monitors:
   - id: xiaokuma
     name: 小kuma
     description: 'Built for anything connected to the Internet.'
-    url: 'https://xjfkkk-uptime-kuma.hf.space/dashboard'
+    url: 'https://kuma.zcmu.us.kg'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
