@@ -74,7 +74,7 @@ monitors:
   - id: liangzi
     name: 量子影视
     description: 'Built for anything connected to the Internet.'
-    url: 'https://4399.rr.nu'
+    url: 'https://mv.1961.rr.nu'
     method: POST
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
