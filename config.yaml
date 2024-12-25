@@ -32,9 +32,9 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: Open WebUI
-    name: Open WebUI
+    name: OneAPI
     description: 'Built for anything connected to the Internet.'
-    url: 'https://chatgpt.zcmu.us.kg'
+    url: 'https://oneapi.xjfkkk.rr.nu'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
@@ -42,7 +42,7 @@ monitors:
   - id: xiaokuma
     name: 小kuma
     description: 'Built for anything connected to the Internet.'
-    url: 'https://kuma.zcmu.us.kg'
+    url: 'https://kuma.xjfkkk.rr.nu'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
@@ -50,7 +50,7 @@ monitors:
   - id: kuma
     name: kuma
     description: 'Built for anything connected to the Internet.'
-    url: 'https://kuma.1003.cloudns.org/status/web'
+    url: 'https://kuma.zcmu.us.kg'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
